@@ -12,7 +12,7 @@ class App extends Component {
       messages: [
         {
           text: "Dear John, the on of going safely but sounded switching prisoners. Question dressed most traveler from he the he project arranged where all just noting the which, destined she sinking events, multi great their met the her one. Listen.",
-          category: "1"
+          category: "Kategori 1"
         }
       ]
     }
