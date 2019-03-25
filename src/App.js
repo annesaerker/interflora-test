@@ -11,14 +11,15 @@ class App extends Component {
     this.state = {
       messages: [
         {
-          text: "Dear John, the on of going safely but sounded switching prisoners. Question dressed most traveler from he the he project arranged where all just noting the which, destined she sinking events, multi great their met the her one. Listen."
+          text: "Dear John, the on of going safely but sounded switching prisoners. Question dressed most traveler from he the he project arranged where all just noting the which, destined she sinking events, multi great their met the her one. Listen.",
+          category: "1"
         }
       ]
     }
   }
 
-  addMessage = (text) => {
-    const newMessages = [...this.state.messages, { text }];
+  addMessage = (newMessage) => {
+    const newMessages = [...this.state.messages, newMessage];
     this.setState({ messages: newMessages });
   };
 
@@ -73,7 +74,5 @@ class App extends Component {
     );
   }
 }
-
-
 
 export default App;
